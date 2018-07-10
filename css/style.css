@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.row1{
+    display: flex;
+    width: 484px;
+    height: 44px;
+    border: 2px solid rgba(0, 0, 0, 0.16);
+    display: flex;
+}
+
+.buscador{
+    border: none;
+    border-radius: 2px;
+    flex :8;
+}
+
+.micro{
+    border-radius: 2px;
+    border: none;
+    flex: 1;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.google, .lucky{
+    height: 36px;
+    border: 2px solid #F2F2F2;
+    background-color: #F2F2F2;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 16px;
+    margin: 25px;
+    color: rgba(0, 0, 0, 0.4);
+}
